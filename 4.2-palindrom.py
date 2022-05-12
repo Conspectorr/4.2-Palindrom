@@ -1,15 +1,15 @@
-from operator import length_hint
-
-
 def palindrom(word):
     """ 
         Sprawdza, czy wyraz jest palindromem.
         Argument:
         word
     """
-    if len(word) % 2 ==0:
-        print("Wyraz nie jest palindromem.")
+    reverse_word=word[::-1]
+    if word == reverse_word:
+        print("Wyraz jest palindromem.")
     else:
-        print("Wyraz ma nieparzystą ilość liter.")
+        print("Wyraz nie jest palindromem.")
+    
 
+palindrom(word)
 
