@@ -9,7 +9,7 @@ def palindrom(word):
         print("Wyraz jest palindromem.")
     else:
         print("Wyraz nie jest palindromem.")
-    
 
+
+word= input("Podaj wyraz do sprawdzenia:")
 palindrom(word)
-
